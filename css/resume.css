@@ -1,0 +1,93 @@
+body {
+	background-color: #ececec;
+}
+
+h1 {
+	color: #fff;
+}
+
+h3 {
+	color: #3fa2ec;
+}
+
+li {
+	display: block;
+}
+
+
+.card {
+	color: #fff;
+	background-color: #3fa2ec;
+	padding: 4px;
+}
+
+#img-profile {
+	padding-top: 10px;
+	width: 30vw;
+	margin: 0 auto;
+}
+
+div#skills > ul > li {
+	display: inline-block;
+}
+
+ul#social {
+	list-style-type: none;
+	display: inline-flex;
+	padding: 0;
+	overflow: hidden;
+}
+
+ul#social > li > a {
+	color: #fff;
+	display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul#social > li > a:hover {
+	color: #3fa2ec;
+	background-color: #fff;
+	transition: 0.3s ease-in;
+}
+
+hr.custom {
+	margin-top: 8px;
+	border: 1px dashed rgba(0, 0, 0, 0.3);
+}
+
+div#header {
+	background-color: #3fa2ec;
+	text-align: center;
+}
+
+#mainBody {
+	background-color: #fff;
+}
+
+span.date {
+	font-style: italic;
+}
+
+span.highlight {
+	font-weight: 700;
+}
+
+a {
+	color: #3fa2ec;
+}
+
+a:hover {
+	color: #FCB040;
+	text-decoration: none;
+}
+
+@media(min-width: 900px) {
+	#img-profile {
+		width: 12vw;
+	}
+
+	div#header {
+		margin-bottom: 16px;
+	}
+}
