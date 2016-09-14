@@ -2,10 +2,12 @@
 <html>
 	<head>
 		<title>Raymond Chung</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="./css/resume.css">
 	</head>
 	<body>
-		<div>
+		<div class="container">
+			<img src="./img/raymond.jpg" class="img-fluid img-circle" id="img-profile">
 			<h1>Raymond Chung</h1>
 			<ul id="social">
 				<li><a href="https://rchung95.github.io">Personal Website</a></li>
@@ -14,56 +16,60 @@
 				<li><a href="https://twitter.com/rchung95">Twitter</a></li>
 			</ul>
 			<hr>
-		</div>
-		<div>
-			<h3>Education</h3>
-			<ul>
-				<li><b>Queen's University</b></li>
+			<div class="col-md-6">
+				<h3>Education</h3>
 				<ul>
-					<li>Computer Science</li>
-					<li>Education</li>
+					<li><span id="edu">Queen's University</span></li>
+					<ul>
+						<li>Computer Science, <i>Graduating 2017</i></li>
+						<li>Education, <i>Expected Graduation 2018</i></li>
+					</ul>
 				</ul>
-			</ul>
-		</div>
-		<div>
-			<h3>Experience</h3>
-			<ul>
-				<li><span>iOS &amp; Web Developer</span>, COMPSA Web Services, <i>July 2015 - Present</i></li>
+			</div>
+			<div id="skills" class="col-md-6">
+				<h3>Skills</h3>
 				<ul>
-					<li>Responsible for the front end of websites and apps</li>
-					<li>Built mobile apps specifically for iPhones</li>
+					<li class="card">HTML5</li>
+					<li class="card">CSS3</li>
+					<li class="card">Bootstrap</li>
+					<li class="card">Swift (iOS Development)</li>
+					<li class="card">Python</li>
+					<li class="card">Java</li>
 				</ul>
-				<li><span>Teaching Assistant</span>, Queen's University, <i>January 2016 - April 2016; Sept 2016 - Present</i></li>
+			</div>
+			<div class="col-md-12">
+				<h3>Experience</h3>
 				<ul>
-					<li>Led CISC P81: Computers: Applications &amp; Implications</li>
-					<li>Proctored, assisted and graded over 90 tests and weekly lab assignments</li>
+					<li><span>iOS &amp; Web Developer</span>, COMPSA Web Services, <i>July 2015 - Present</li>
+					<ul>
+						<li>Responsible for the front end of websites and apps</li>
+						<li>Built mobile apps specifically for iPhones</li>
+					</ul>
+					<li><span>Teaching Assistant</span>, Queen's University, <i>January 2016 - April 2016; Sept 2016 - Present</i></li>
+					<ul>
+						<li>Led CISC P81: Computers: Applications &amp; Implications</li>
+						<li>Proctored, assisted and graded over 90 tests and weekly lab assignments</li>
+					</ul>
 				</ul>
-			</ul>
-		</div>
-		<div>
-			<h3>Skills</h3>
-			<ul>
-				<li>HTML5</li>
-				<li>CSS3</li>
-				<li>Bootstrap</li>
-				<li>Swift (iOS Development)</li>
-				<li>Python</li>
-				<li>Java</li>
-			</ul>
-		</div>
-		<div>
-			<h3>Projects</h3>
-			<ul>
-				<li><b>Personal Website</b></li>
+			</div>
+			<div class="col-md-12">
+				<h3>Projects</h3>
 				<ul>
-					<li>Created using HTML5, CSS3, MaterializeCSS &amp; Jekyll to reduce code repetition</li>
+					<li><b>Personal Website</b></li>
+					<ul>
+						<li>Created using HTML5, CSS3, MaterializeCSS &amp; Jekyll to reduce code repetition</li>
+					</ul>
+					<li><b>Light Up Skateboard</b></li>
+					<ul>
+						<li>Skateboard that lights up based on the direction and the accerleration of the board</li>
+						<li>Coded in C</li>
+					</ul>
 				</ul>
-				<li><b>Light Up Skateboard</b></li>
-				<ul>
-					<li>Skateboard that lights up based on the direction and the accerleration of the board</li>
-					<li>Coded in C</li>
-				</ul>
-			</ul>
+			</div>
 		</div>
+
+		<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js"></script>
 	</body>
 </html>
