@@ -61,7 +61,8 @@ div#header {
 	text-align: center;
 }
 
-#mainBody {
+div#mainBody {
+	padding-top: 16px;
 	background-color: #fff;
 }
 
@@ -82,12 +83,12 @@ a:hover {
 	text-decoration: none;
 }
 
-@media(min-width: 900px) {
+div#header {
+	margin-bottom: 0px;
+}
+
+@media (min-width: 900px) {
 	#img-profile {
 		width: 12vw;
-	}
-
-	div#header {
-		margin-bottom: 16px;
 	}
 }
