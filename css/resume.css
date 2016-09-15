@@ -87,7 +87,7 @@ div#header {
 	margin-bottom: 0px;
 }
 
-@media (min-width: 900px) {
+@media(min-width: 900px) {
 	#img-profile {
 		width: 12vw;
 	}
