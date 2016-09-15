@@ -87,19 +87,8 @@ div#header {
 	margin-bottom: 0px;
 }
 
-.vcontainer {
-	margin-left: auto;
-	margin-right: auto;
-}
-
 @media(min-width: 900px) {
 	#img-profile {
 		width: 12vw;
-	}
-
-	.vcontainer {
-		max-width: 80vw;
-		padding-left: 15px;
-		padding-right: 15px;
 	}
 }
